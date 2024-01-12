@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #FF7A7A;
+}
+
+/* section left-web */
+
+
+
+/* section right-web */
+.try-free {
+    background-color: #6055A5;
+}
+
+input[type="button"][value="Claim your free trial"] {
+    background-color: #38CC8C;
+}
+
+
+/* 
+index.html updates not pushed
+
+
+*/
