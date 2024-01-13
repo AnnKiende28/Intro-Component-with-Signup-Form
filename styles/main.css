@@ -72,7 +72,7 @@ input {
 input[type="button"][value="Claim your free trial"] {
     background-color: #38CC8C;
     color: #FFFFFF;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 #para-form {
@@ -103,7 +103,6 @@ footer a {
 /* 
 index.html updates not pushed
 --------------
-put p tag into footer tags
-move paragraph that was previously after the form inside the form tags
-add all sections into main section
+
+
 */
