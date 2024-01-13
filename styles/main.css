@@ -6,6 +6,7 @@
 body {
     box-sizing: border-box;
     background-color: #FF7A7A;
+<<<<<<< HEAD
     padding: 20px;
     line-height: 1.6;
     font-family: Poppins, sans-serif;
@@ -16,10 +17,13 @@ body {
 main {
     display: flex;
     align-items: center;
+=======
+>>>>>>> 814686afcce00194ca60e9f916b8f82fc704b942
 }
 
 /* section left-web */
 
+<<<<<<< HEAD
 .left-web {
     padding: 70px;
     color: #FFFFFF;
@@ -67,10 +71,18 @@ input {
     border-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 90%;
+=======
+
+
+/* section right-web */
+.try-free {
+    background-color: #6055A5;
+>>>>>>> 814686afcce00194ca60e9f916b8f82fc704b942
 }
 
 input[type="button"][value="Claim your free trial"] {
     background-color: #38CC8C;
+<<<<<<< HEAD
     color: #FFFFFF;
     text-transform: uppercase;
 }
@@ -103,6 +115,13 @@ footer a {
 /* 
 index.html updates not pushed
 --------------
+=======
+}
+
+
+/* 
+index.html updates not pushed
+>>>>>>> 814686afcce00194ca60e9f916b8f82fc704b942
 
 
 */
