@@ -6,24 +6,104 @@
 body {
     box-sizing: border-box;
     background-color: #FF7A7A;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: Poppins, sans-serif;
+    
+}
+
+/* Main */
+main {
+    display: flex;
+    align-items: center;
 }
 
 /* section left-web */
 
+.left-web {
+    padding: 70px;
+    color: #FFFFFF;
+}
 
+.left-web h1 {
+    font-size: 2.5rem;
+    line-height: normal;
+}
+
+.left-web p {
+    margin-top: 20px;
+}
 
 /* section right-web */
+.right-web {
+    flex-direction: column;
+    padding: 20px;
+}
+
 .try-free {
+    color: #FFFFFF;
     background-color: #6055A5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: small;
+}
+
+.try-free #large-text {
+    font-weight: bold;
+}
+
+form {
+    border-radius: 8px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+input {
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 90%;
 }
 
 input[type="button"][value="Claim your free trial"] {
     background-color: #38CC8C;
+    color: #FFFFFF;
+    text-transform: capitalize;
 }
 
+#para-form {
+    text-align: center;
+}
+
+#para-form > span {
+    color: #C6BFD7;
+    font-size: small;
+}
+
+#para-form > span#small-text {
+    color: #FF7A7A;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer a {
+    color: #FFFFFF;
+}
 
 /* 
 index.html updates not pushed
-
-
+--------------
+put p tag into footer tags
+move paragraph that was previously after the form inside the form tags
+add all sections into main section
 */
