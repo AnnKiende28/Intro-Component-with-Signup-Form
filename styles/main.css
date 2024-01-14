@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -14,8 +13,16 @@ body {
 
 /* Main */
 main {
-    display: flex;
-    align-items: center;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sec {
+    flex-grow: 1;
+    min-width: 300px;
 }
 
 /* section left-web */
@@ -23,6 +30,7 @@ main {
 .left-web {
     padding: 70px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .left-web h1 {
